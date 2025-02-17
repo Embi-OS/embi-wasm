@@ -1,0 +1,10 @@
+services:
+  vue:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: embi-wasm
+    command: "nginx -g 'daemon off;'"
+    ports:
+      - "8443:443"
+    restart: always
