@@ -1,4 +1,4 @@
-# voh-wasm
+# embi-wasm
 
 ## Run + Deploy (Docker)
 
